@@ -1,4 +1,4 @@
-#Arkanoid for Arduino Nano
+# Arkanoid for Arduino Nano
 Porting of the Arkanoid game (breakout) to Arduino Nano.
 Starting from the lexus2k/ssd1306 repo (link at the bottom) I optimized the code of the Arkanoid example for Arduino Nano, then I fixed some bugs, like an infinite loop when hitting the corner of some bricks.
 Then I added the movement of the base with two possible options:
@@ -7,7 +7,7 @@ Then I added the movement of the base with two possible options:
 
 <img src="./img/20241215_152713.jpg" width="400">
 
-###Components List
+### Components List
 - Arduino Nano
 - SSD1306 oled display
 - 10K potentiometer
@@ -18,6 +18,10 @@ Then I added the movement of the base with two possible options:
 - 100uF capacitor
 - charger module and step-up for 5V
 - lipo battery
+
+### STL 3D Files
+I created a simple case, stl file are available here:
+https://cults3d.com/en/3d-model/game/arkanoid-breakout-arduino-nano
 
 base projects where I started:
 - https://github.com/lexus2k/ssd1306
